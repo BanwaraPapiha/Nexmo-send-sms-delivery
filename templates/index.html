@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div id='box'>
+        <form action="" method="post">
+            <label for="phone">Enter a phone number:</label>
+            <br><br>
+            <input type="text" name="phone" id="phone" placeholder="+ 92 3xx xxx xxxx">
+            <br><br>
+            <small>Format: +923xxxxxxxxx (No spaces in between)</small><br><br>
+            <input type="submit">          
+        </form>    
+    </div>
+{% endblock %}
